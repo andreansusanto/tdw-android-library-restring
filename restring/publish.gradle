@@ -4,20 +4,20 @@ ext {
 
     publishedGroupId = 'tdw.library.restring'
     artifact = 'restring'
-    libraryVersion = '4.0.3'
+    libraryVersion = '1.0'
 
     libraryName = 'Restring'
-    libraryDescription = 'A Android library to replace string resources dynamically'
-    siteUrl = 'https://github.com/B3nedikt/restring'
-    gitUrl = 'https://github.com/B3nedikt/restring.git'
+    libraryDescription = 'An Android library to replace string resources dynamically'
+    siteUrl = 'https://github.com/andreansusanto/tdw-android-library-restring'
+    gitUrl = 'https://github.com/andreansusanto/tdw-android-library-restring.git'
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 
-    developerId = 'b3nedikt'
-    developerName = 'Benedikt Löbbecke'
-    developerEmail = 'mail@b3nedikt.dev'
-    organization = 'b3nedikt.dev'
+    developerId = 'andrean'
+    developerName = 'Andrean Susanto'
+    developerEmail = 'andreansusanto62@gmail.com'
+    organization = 'Telkomsel'
 }
 
 apply from: 'install.gradle'
