@@ -72,7 +72,7 @@ object Restring {
      * @param newStrings the strings of the language.
      */
     @JvmStatic
-    fun setStrings(locale: Locale, newStrings: Map<String, String>) {
+    fun setStrings(locale: Locale, newStrings: Map<String, CharSequence>) {
         stringRepository.setStrings(locale, newStrings)
     }
 
